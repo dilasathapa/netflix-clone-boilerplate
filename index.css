@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    color: rgb(253, 255, 255);
+    background-color: rgb(20,20,20);
+}
+.wallpaper{
+    border: 0px solid green;
+    
+}
+.wallpaper>img{
+    width: 100%;
+    height: 800px;
+}
+.navbar{
+    margin-top: -51%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar>div:nth-child(1){
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    width: 30%;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+    
+    /* backdrop-filter: blur(10px); */
+    /* color: #f6eeee; */
+   
+}
+#dp{
+    height: 40px;
+    margin-top: -8px;
+}
+.right-arrow{
+    height: 10px;
+}
+.navbar>div:nth-child(2){
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    /* border: 2px solid teal; */
+    width: 15%;
+    margin-top: 2%;
+
+}
+.headings{
+    margin-top: 18%;
+    /* width: 500%; */
+    /* border: 2px solid blue; */
+    z-index: 5;
+    margin-left: 4%;
+}
+.headings>div:nth-child(1){
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    width: 8%;
+}
+.headings>div:nth-child(1)>img{
+    height: 30px;
+}
+.headings>p{
+    font-size: 140px;
+}
+.btns{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 20%;
+    border: 2px solid brown; */
+    gap: 2%;
+
+}
+.btns>button{
+    height: 40px;
+    width: 6%;
+    border-radius: 4px;
+    border: none;
+}
+.btns>button:nth-child(2){
+    background-color: rgba(187, 186, 186, 0.896);
+}
+.see-again{
+    margin: 5% 5%;
+}
+.first-row-shows{
+    /* border: 4px solid blue; */
+    margin: 2% 2%;
+}
+
+.first-row-shows img{
+    /* border: 2px solid green; */
+    width: 18%;
+    height: 160px;
+    margin-left: 1%;
+    margin-top: -1%;
+    /* margin-left: -8%; */
+    border-radius: 8px;
+}
+.shows-start{
+    background-image: linear-gradient(RGB(20,20,20));
+}
+.shows{
+    /* border: 2px solid brown; */
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.shows > h3{
+    margin-bottom: 1%;
+    font-size: 25px;
+}
+.shows_numbers{
+    display: flex;
+}
+.shows_numbers div{
+    display: flex;
+    height: 200px;
+    width: 20%;
+    /* border: 4px solid green; */
+}
+.shows div>img{
+    height: 180px;
+    width: 50%;
+    border-radius: 4px;
+
+    
+}
+.trend-text{
+    margin-top: 4%;
+}
+#trending-shows{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+#trending-shows img{
+    width: 19%;
+    border-radius: 4px;
+
+}
+#sci-fi{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+#sci-fi img{
+    width: 19%;
+    border-radius: 4px;
+
+}
+
+/* ---------------footer------------ */
+
+.footer{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    padding: 1% 20% 2% 20%;
+    color: gray;
+}
+
+.foot-icons span{
+    font-size: 30px;
+    margin-left: 1%;
+}
+
+.foot-dis{
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.foot-dis>div>p{
+    padding-bottom: 20px;
+}
+
+.btn-hiz{
+    height: 40px;
+    width: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: rgb(20,20,20);
+}
